@@ -10,5 +10,5 @@ signup = CreateView.as_view(
     model=User,
     form_class=UserCreationForm,
     success_url=settings.LOGIN_URL,
-    template_name='accounts/signup_form.html'
+    template_name='accounts/signin_form.html'
 )

@@ -83,7 +83,7 @@ WSGI_APPLICATION = "sportsclub.wsgi.application"
 #     }
 # }
 DATABASES = DATABASES_DEV
-
+AUTH_USER_MODEL = 'auth.User'
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
